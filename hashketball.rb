@@ -79,4 +79,5 @@ def big_shoe_rebounds
             rebounds = player[:rebounds]
         }
   }
+  rebounds
 end
