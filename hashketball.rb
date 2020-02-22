@@ -4,5 +4,5 @@ def game_hash
   game = YAML.load_file("stats.yml")
 
 
-  puts game
+  pp game
 end
