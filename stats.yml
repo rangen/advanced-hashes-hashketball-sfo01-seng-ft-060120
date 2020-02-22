@@ -1,15 +1,15 @@
 !ruby/sym home:
-  team_name: Brooklyn Nets
-  colors:
+  !ruby/sym team_name: Brooklyn Nets
+  !ruby/sym colors:
     - Black
     - White
-  players:
+  !ruby/sym players:
     - 1
     - 2
 
 !ruby/sym away:
-  team_name: Charlotte Hornets
-  colors:
+  !ruby/sym team_name: Charlotte Hornets
+  !ruby/sym colors:
     - Turquoise
     - Purple
-  players:
+  !ruby/sym players:
