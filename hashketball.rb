@@ -102,7 +102,7 @@ end
 def winning_team
   stats = game_hash
 
-  points = []
+  points = Hash.new
 
   stats.each_pair {|x, team|
         team[:players].each {|player|
