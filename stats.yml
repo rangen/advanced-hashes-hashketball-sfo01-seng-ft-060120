@@ -55,3 +55,48 @@
     - Turquoise
     - Purple
   !ruby/sym players:
+    - !ruby/sym player_name: Jeff Adrien
+      !ruby/sym number: 4
+      !ruby/sym shoe: 18
+      !ruby/sym points: 10
+      !ruby/sym rebounds: 1
+      !ruby/sym assists: 1
+      !ruby/sym steals: 2
+      !ruby/sym blocks: 7
+      !ruby/sym slam_dunks: 2
+    - !ruby/sym player_name: Bismack Biyombo
+      !ruby/sym number: 0
+      !ruby/sym shoe: 16
+      !ruby/sym points: 12
+      !ruby/sym rebounds: 4
+      !ruby/sym assists: 7
+      !ruby/sym steals: 22
+      !ruby/sym blocks: 15
+      !ruby/sym slam_dunks: 10
+    - !ruby/sym player_name: DeSagna Diop
+      !ruby/sym number: 2
+      !ruby/sym shoe: 14
+      !ruby/sym points: 24
+      !ruby/sym rebounds: 12
+      !ruby/sym assists: 12
+      !ruby/sym steals: 4
+      !ruby/sym blocks: 5
+      !ruby/sym slam_dunks: 5
+    - !ruby/sym player_name: Ben Gordon
+      !ruby/sym number: 8
+      !ruby/sym shoe: 15
+      !ruby/sym points: 33
+      !ruby/sym rebounds: 3
+      !ruby/sym assists: 2
+      !ruby/sym steals: 1
+      !ruby/sym blocks: 1
+      !ruby/sym slam_dunks: 0
+    - !ruby/sym player_name: Kemba Walker
+      !ruby/sym number: 33
+      !ruby/sym shoe: 15
+      !ruby/sym points: 6
+      !ruby/sym rebounds: 12
+      !ruby/sym assists: 12
+      !ruby/sym steals: 7
+      !ruby/sym blocks: 5
+      !ruby/sym slam_dunks: 12
