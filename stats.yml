@@ -5,7 +5,7 @@
     - White
   !ruby/sym players:
     - !ruby/sym player_name: Alan Anderson
-    - !ruby/sym number: 0
+      !ruby/sym number: 0
 
 !ruby/sym away:
   !ruby/sym team_name: Charlotte Hornets
