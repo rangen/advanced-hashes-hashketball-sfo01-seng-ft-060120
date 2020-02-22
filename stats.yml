@@ -7,7 +7,7 @@
     - 1
     - 2
 
-away:
+!ruby/sym away:
   team_name: Charlotte Hornets
   colors:
     - Turquoise
