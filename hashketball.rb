@@ -31,3 +31,12 @@ def team_colors(team_name)
     return team[:colors] if team[:team_name] == team_name
   }
 end
+
+def team_names
+  stats = game_hash
+  names = []
+  stats.each_pair {|x, team|
+    names << team[:team_name]
+  }
+  names
+end
