@@ -27,7 +27,7 @@
       !ruby/sym shoe: 17
       !ruby/sym points: 17
       !ruby/sym rebounds: 19
-      !ruby/sym assists: 10 
+      !ruby/sym assists: 10
       !ruby/sym steals: 3
       !ruby/sym blocks: 1
       !ruby/sym slam_dunks: 15
