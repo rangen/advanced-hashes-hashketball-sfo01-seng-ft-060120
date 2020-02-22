@@ -111,4 +111,6 @@ def winning_team
   }
   if points[:home] > points[:away]
     return stats[:home][:team_name]
+  else
+    return stats[:away][:team_name]
 end
