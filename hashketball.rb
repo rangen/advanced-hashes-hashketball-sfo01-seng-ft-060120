@@ -82,3 +82,21 @@ def big_shoe_rebounds
   }
   rebounds
 end
+
+def most_points_scored
+  stats = game_hash
+  top_scorer = ""
+  points = 0
+
+  stats.each_pair {|x, team|
+        team[:players].each {|player|
+          if player[:points] > points
+            points = player[:points]
+            top_scorer = player[:player_name]
+          end
+        }
+  }
+  top_scorer
+end
+
+
