@@ -40,3 +40,11 @@ def team_names
   }
   names
 end
+
+def player_numbers(team_name)
+  stats = game_hash
+
+  stats.each_pair {|x, team|
+    return team[:colors] if team[:team_name] == team_name
+  }
+end
