@@ -3,10 +3,10 @@ def game_hash
               :team_name = "Brooklyn Nets", :colors = ["Black", "White"]
     }, :away =>{
               :team_name = "Charlotte Hornets", :colors = ["Turquoise", "Purple"]
-    
+
   }
 }
-  
-  
+
+
   game
 end
