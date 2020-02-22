@@ -98,5 +98,3 @@ def most_points_scored
   }
   top_scorer
 end
-
-
