@@ -13,7 +13,42 @@
       !ruby/sym steals: 3
       !ruby/sym blocks: 1
       !ruby/sym slam_dunks: 1
-
+    - !ruby/sym player_name: Reggie Evans
+      !ruby/sym number: 30
+      !ruby/sym shoe: 14
+      !ruby/sym points: 12
+      !ruby/sym rebounds: 12
+      !ruby/sym assists: 12
+      !ruby/sym steals: 12
+      !ruby/sym blocks: 12
+      !ruby/sym slam_dunks: 7
+    - !ruby/sym player_name: Brook Lopez
+      !ruby/sym number: 11
+      !ruby/sym shoe: 17
+      !ruby/sym points: 17
+      !ruby/sym rebounds: 19
+      !ruby/sym assists: 10 
+      !ruby/sym steals: 3
+      !ruby/sym blocks: 1
+      !ruby/sym slam_dunks: 15
+    - !ruby/sym player_name: Mason Plumlee
+      !ruby/sym number: 1
+      !ruby/sym shoe: 19
+      !ruby/sym points: 26
+      !ruby/sym rebounds: 11
+      !ruby/sym assists: 6
+      !ruby/sym steals: 3
+      !ruby/sym blocks: 8
+      !ruby/sym slam_dunks: 5
+    - !ruby/sym player_name: Jason Terry
+      !ruby/sym number: 31
+      !ruby/sym shoe: 15
+      !ruby/sym points: 19
+      !ruby/sym rebounds: 2
+      !ruby/sym assists: 2
+      !ruby/sym steals: 4
+      !ruby/sym blocks: 11
+      !ruby/sym slam_dunks: 1
 !ruby/sym away:
   !ruby/sym team_name: Charlotte Hornets
   !ruby/sym colors:
