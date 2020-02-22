@@ -1,16 +1,14 @@
 home:
   team_name: Brooklyn Nets
   colors:
-    -
-      Black
-      White
+    - Black
+    - White
   players:
 
 
 away:
   team_name: Charlotte Hornets
   colors:
-    -
-      Turquoise
-      Purple
+    - Turquoise
+    - Purple
   players:
