@@ -6,6 +6,13 @@
   !ruby/sym players:
     - !ruby/sym player_name: Alan Anderson
       !ruby/sym number: 0
+      !ruby/sym shoe: 16
+      !ruby/sym points: 22
+      !ruby/sym rebounds: 12
+      !ruby/sym assists: 12
+      !ruby/sym steals: 3
+      !ruby/sym blocks: 1
+      !ruby/sym slam_dunks: 1
 
 !ruby/sym away:
   !ruby/sym team_name: Charlotte Hornets
