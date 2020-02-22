@@ -98,3 +98,18 @@ def most_points_scored
   }
   top_scorer
 end
+
+def winning_team
+  stats = game_hash
+  
+  points = []
+
+  stats.each_pair {|x, team|
+        team[:players].each {|player|
+          if player[:points] > points
+            points = player[:points]
+            top_scorer = player[:player_name]
+          end
+        }
+  }
+end
