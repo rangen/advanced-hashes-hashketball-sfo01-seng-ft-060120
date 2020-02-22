@@ -44,7 +44,7 @@ end
 def player_numbers(team_name)
   stats = game_hash
   jerseys = []
-  
+
   stats.each_pair {|x, team|
     if team[:team_name] == team_name
       team[:players].each {|player|
