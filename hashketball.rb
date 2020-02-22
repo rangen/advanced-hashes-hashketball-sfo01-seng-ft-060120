@@ -113,4 +113,5 @@ def winning_team
     return stats[:home][:team_name]
   else
     return stats[:away][:team_name]
+  end
 end
