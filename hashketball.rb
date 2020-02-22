@@ -64,3 +64,19 @@ def player_stats(player_name)
         }
   }
 end
+
+def big_shoe_rebounds
+  stats = game_hash
+  biggest_shoe = ""
+  biggest_shoe_size = 0
+  rebounds = 0
+  
+  stats.each_pair {|x, team|
+        team[:players].each {|player|
+          if player[:shoe] > biggest_shoe_size
+            biggest_shoe_size = player[:shoe]
+            biggest_shoe = player[:player_name]
+            rebounds = player[:rebounds]
+        }
+  }  
+end
