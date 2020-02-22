@@ -1,7 +1,7 @@
 require "yaml"
 
 def game_hash
-  game = YAML.load("stats.yml")
+  game = YAML.load_file("stats.yml")
 
 
   puts game
