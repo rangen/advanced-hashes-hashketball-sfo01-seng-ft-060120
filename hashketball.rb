@@ -57,7 +57,7 @@ end
 
 def player_stats(player_name)
   stats = game_hash
-  
+
   stats.each_pair {|x, team|
         team[:players].each {|player|
           return player if player[:player_name] == player_name
