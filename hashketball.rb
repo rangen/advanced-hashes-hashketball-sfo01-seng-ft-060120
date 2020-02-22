@@ -129,3 +129,19 @@ def player_with_longest_name
   }
   longest_name
 end
+
+def long_name_steals_a_ton
+  stats = game_hash
+  top_stealer = ""
+  steals = 0
+
+  stats.each_pair {|x, team|
+        team[:players].each {|player|
+          if player[:steals] > steals
+            steals = player[:steals]
+            top_stealer = player[:player_name]
+          end
+        }
+  }
+  return top_scorer == player_with_longest_name
+end
