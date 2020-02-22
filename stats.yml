@@ -4,7 +4,8 @@ home:
     - Black
     - White
   players:
-
+    - 1
+    - 2  
 
 away:
   team_name: Charlotte Hornets
