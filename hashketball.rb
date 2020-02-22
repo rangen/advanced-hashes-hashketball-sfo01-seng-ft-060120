@@ -101,7 +101,7 @@ end
 
 def winning_team
   stats = game_hash
-  
+
   points = []
 
   stats.each_pair {|x, team|
