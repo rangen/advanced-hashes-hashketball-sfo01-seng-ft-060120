@@ -106,7 +106,7 @@ def winning_team
 
   stats.each_pair {|x, team|
         team[:players].each {|player|
-          points[x] +=
+          points[x] += player[:points]
         }
   }
 end
