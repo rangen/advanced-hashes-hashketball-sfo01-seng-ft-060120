@@ -102,14 +102,11 @@ end
 def winning_team
   stats = game_hash
 
-  points = Hash.new
+  points = Hash.new(0)
 
   stats.each_pair {|x, team|
         team[:players].each {|player|
-          if player[:points] > points
-            points = player[:points]
-            top_scorer = player[:player_name]
-          end
+          points[x] +=
         }
   }
 end
