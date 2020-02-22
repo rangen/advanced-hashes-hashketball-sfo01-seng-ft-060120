@@ -115,3 +115,17 @@ def winning_team
     return stats[:away][:team_name]
   end
 end
+
+def player_with_longest_name
+  stats = game_hash
+  longest_name = ""
+
+  stats.each_pair {|x, team|
+        team[:players].each {|player|
+          if player[:player_name].length > longest_name.length
+            longest_name = player[:player_name]
+          end
+        }
+  }
+  longest_name
+end
